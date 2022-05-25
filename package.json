@@ -8,13 +8,19 @@
         "build": "parcel build index.html"
     },
     "devDependencies": {
-        "autoprefixer": "^9.7.2",
-        "babel-core": "^6.26.3",
-        "babel-preset-env": "^1.7.0",
-        "cssnano": "^4.1.10",
-        "sass": "^1.23.7"
+        "@babel/core": "^7.18.0",
+        "@parcel/transformer-sass": "^2.5.0",
+        "autoprefixer": "^9.8.8",
+        "cssnano": "^4.1.11",
+        "parcel": "^2.5.0",
+        "postcss": "^8.4.14"
     },
     "dependencies": {
-        "lodash": "^4.17.15"
+        "lodash": "^4.17.21"
+    },
+    "pnpm": {
+        "overrides": {
+            "nth-check@<2.0.1": ">=2.0.1"
+        }
     }
 }
